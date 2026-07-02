@@ -1,4 +1,6 @@
-﻿using OpenQA.Selenium;
+﻿
+
+using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
 using System;
 using System.Collections.Generic;
@@ -18,9 +20,9 @@ namespace Ex_03_Controllers
         private IWebElement firstName => driver.FindElement(By.CssSelector("[name='firstname'"));
         private IWebElement lastName => driver.FindElement(By.CssSelector("[name='lastname'"));
         private IWebElement continents => driver.FindElement(By.CssSelector("[id='continents'"));
-        private IWebElement button=> driver.FindElement(By.Id("submit"));
+        private IWebElement button => driver.FindElement(By.Id("submit"));
 
-        public void Fill (string firstName, string lastName)
+        public void Fill(string firstName, string lastName)
         {
             this.firstName.SendKeys(firstName);
             this.lastName.SendKeys(lastName);

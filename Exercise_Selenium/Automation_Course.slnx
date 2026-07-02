@@ -2,4 +2,5 @@
   <Project Path="Exercise_01_Basics/Exercise_01_Basics.csproj" />
   <Project Path="Exercise_02_Locators/Exercise_02_Locators.csproj" />
   <Project Path="Ex_03_Controllers/Ex_03_Controllers.csproj" Id="a53059bd-085b-499f-aeee-c4ce014f87ce" />
+  <Project Path="Ex_04_Asserts/Ex_04_Asserts.csproj" Id="479ca1ce-285a-44d2-915b-1cbc13325dc3" />
 </Solution>
