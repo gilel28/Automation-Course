@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="Exercise_01_Basics/Exercise_01_Basics.csproj" />
+  <Project Path="Exercise_02_Basic_Locators/Exercise_02_Locators.csproj" Id="3be05aad-1aee-4f75-8f2e-7c5c860d9f16" />
 </Solution>
