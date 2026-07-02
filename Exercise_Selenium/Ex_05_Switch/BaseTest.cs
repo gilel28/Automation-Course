@@ -4,7 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Ex_03_Controllers
+namespace Ex_05_Controllers
 {
     public class BaseTest
     {
@@ -15,7 +15,7 @@ namespace Ex_03_Controllers
         {
             driver = new ChromeDriver();
             driver.Manage().Window.Maximize();
-            driver.Navigate().GoToUrl("https://atidcollege.co.il/Xamples/ex_controllers.html");
+            driver.Navigate().GoToUrl("https://atidcollege.co.il/Xamples/ex_switch_navigation.html");
         }
 
         [TearDown]
