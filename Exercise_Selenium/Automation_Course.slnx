@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Exercise_01_Basics/Exercise_01_Basics.csproj" />
+  <Project Path="Exercise_02_Locators/Exercise_02_Locators.csproj" />
+</Solution>
