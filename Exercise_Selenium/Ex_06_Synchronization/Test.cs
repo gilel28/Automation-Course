@@ -7,15 +7,14 @@ namespace Ex_06_Synchronization
         [Test]
         public void ExplicitWaitTest()
         {
-            SynchronizationPage page = new SynchronizationPage(driver);
+            FormPage page = new FormPage(driver);
             Assert.That( page.Rendered(),Is.EqualTo("My Rendered Element After Fact!"));
         }
 
         [Test]
         public void ImplicitWaitTest()
         {
-            SynchronizationPage page = new SynchronizationPage(driver);
-
+            FormPage page = new FormPage(driver);
             Assert.That(page.Delete(), Is.EqualTo("It's gone!"));
         }
     }

@@ -5,12 +5,12 @@ using System;
 
 namespace Ex_06_Synchronization
 {
-    public class SynchronizationPage
+    public class FormPage
     {
         private readonly IWebDriver driver;
         private readonly WebDriverWait wait;
 
-        public SynchronizationPage(IWebDriver driver)
+        public FormPage(IWebDriver driver)
         {
             this.driver = driver;
             wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));

@@ -5,4 +5,5 @@
   <Project Path="Ex_04_Asserts/Ex_04_Asserts.csproj" Id="479ca1ce-285a-44d2-915b-1cbc13325dc3" />
   <Project Path="Ex_05_Switch/Ex_05_Switch.csproj" Id="3c2709a7-2369-41b9-9d6b-142509e83ce2" />
   <Project Path="Ex_06_Synchronization/Ex_06_Synchronization.csproj" Id="80de4920-a3f3-4fed-a6a0-7f99fed79d76" />
+  <Project Path="Ex_07_External_Files/Ex_07_External_Files.csproj" />
 </Solution>
