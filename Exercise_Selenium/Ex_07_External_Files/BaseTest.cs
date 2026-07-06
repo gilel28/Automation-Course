@@ -26,10 +26,24 @@ namespace Ex_07_External_Files
         [TearDown]
         public void TearDown()
         {
+            if (TestContext.CurrentContext.Result.Outcome.Status == NUnit.Framework.Interfaces.TestStatus.Failed)
+            {
+                TakeScreenshot(driver);
+                string errorMessage = TestContext.CurrentContext.Result.Message;
+                Console.WriteLine("Test Failed! Error: " + errorMessage);
+            }
+
             if (driver != null)
             {
                 driver.Quit();
             }
+        }
+        public void TakeScreenshot(IWebDriver driver, string name = "Page Screenshot")
+        {
+            var screenshot = ((ITakesScreenshot)driver).GetScreenshot();
+            byte[] screenshotBytes = screenshot.AsByteArray;
+
+            AllureApi.AddAttachment(name, "image/png", screenshotBytes, "png");
         }
     }
 }

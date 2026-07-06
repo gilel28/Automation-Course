@@ -32,27 +32,6 @@ namespace Ex_07_External_Files
             }
         }
 
-        [Test]
-        [AllureName("check bmi2")]
-        public void Test_02()
-        {
-            try
-            {
-                formPage = new FormPage(driver);
-                String result = formPage.Fill(GetData("Weight"), GetData("Height"));
-                Assert.That(result, Is.EqualTo("That you have overweiht.fff"));
-            }
-            catch (Exception ex)
-            {
-                TakeScreenshot(driver);
-                Console.WriteLine("Assert failed" + ex);
-            }
-        }
-
-
-
-
-
 
         public string GetData(string nodeName)
     {

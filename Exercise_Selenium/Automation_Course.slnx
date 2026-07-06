@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Ex09_Actions/Ex09_Actions.csproj" Id="7882d0af-64d6-41b4-bae4-05993b8cdb9b" />
   <Project Path="Exercise_01_Basics/Exercise_01_Basics.csproj" />
   <Project Path="Exercise_02_Locators/Exercise_02_Locators.csproj" />
   <Project Path="Ex_03_Controllers/Ex_03_Controllers.csproj" Id="a53059bd-085b-499f-aeee-c4ce014f87ce" />
@@ -6,4 +7,5 @@
   <Project Path="Ex_05_Switch/Ex_05_Switch.csproj" Id="3c2709a7-2369-41b9-9d6b-142509e83ce2" />
   <Project Path="Ex_06_Synchronization/Ex_06_Synchronization.csproj" Id="80de4920-a3f3-4fed-a6a0-7f99fed79d76" />
   <Project Path="Ex_07_External_Files/Ex_07_External_Files.csproj" />
+  <Project Path="Ex_10_Page_Objects/Ex_10_Page_Objects.csproj" Id="158319b9-9613-4df6-851e-01fec6792f5f" />
 </Solution>
